@@ -6,11 +6,11 @@
   }
 
   h1 {
-    @apply text-smTitle font-bold;
+    @apply text-subtitle font-bold;
   }
 
-  h3 {
-    @apply text-smSubtitle;
+  h2 {
+    @apply text-smSubtitle font-semibold;
   }
 }
 

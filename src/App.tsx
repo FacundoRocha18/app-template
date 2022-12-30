@@ -12,6 +12,18 @@ import './App.css'
 function App() {
   return (
     <div className='flex flex-col gap-20'>
+			<h1>
+          This is a React template created by{' '}
+          <a
+            className='text-yellow-400 hover:text-yellow-500'
+            href='https://github.com/FacundoRocha18'
+            target='_blank'
+            rel='noreferrer'
+            title='Go to Facundo´s GitHub'
+          >
+            Facundo Rocha
+          </a>
+        </h1>
       <div className='flex justify-around'>
         <a href='https://vitejs.dev' target='_blank' rel='noreferrer'>
           <img src='/vite.svg' className='logo' alt='Vite logo' />
@@ -41,23 +53,12 @@ function App() {
           <img src={netlifyLogo} className='logo ts' alt='Netlify logo' />
         </a>
       </div>
-      <div className='flex flex-col items-center justify-center gap-8'>
-        <h1>
+      <div className='flex flex-col items-center justify-center gap-12'>
+        <h2>
           Vite + React + TypeScript + TailwindCSS + React Router + Prettier + ESLint + Jest +
           Netlify
-        </h1>
-        <h3>
-          This is a React template created by{' '}
-          <a
-            className='text-yellow-400 hover:text-yellow-500'
-            href='https://github.com/FacundoRocha18'
-            target='_blank'
-            rel='noreferrer'
-            title='Go to Facundo´s GitHub'
-          >
-            Facundo Rocha
-          </a>
-        </h3>
+        </h2>
+        
         <p className='read-the-docs'>Click on the logos to learn more about each technology</p>
         <img src={githubLogo} alt='Github logo' />
         <a
