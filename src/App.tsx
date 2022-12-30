@@ -9,7 +9,7 @@ import netlifyLogo from './assets/netlify-icon.svg'
 import githubLogo from './assets/github-mark-white.svg'
 import './App.css'
 
-function App() {
+const App = () => {
   return (
     <div className='flex flex-col gap-20'>
 			<h1>
