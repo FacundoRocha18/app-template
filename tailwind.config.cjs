@@ -5,19 +5,8 @@ module.exports = {
 	],
 	theme: {
 		extend: {
-			width: {
-				'complete': '100vw',
-				'50v': '50vw',
-				'400p': '400px',
-				'200p': '200px',
-			},
-			height: {
-				'complete': '100vh',
-				'60v': '60vh',
-				'50v': '50vh',
-				'40v': '40vh',
-				'20v': '20vh',
-				'50p': '50px',
+			willChange: {
+				'filter': 'filter'
 			},
 			fontFamily: {
 				'poppins': 'poppins'
@@ -30,9 +19,16 @@ module.exports = {
 			},
 		},
 		screens: {
-			'mb': [{'max': '550px'}],
-			'md': [{'min': '668px', 'max': '1100px'},]
-		},
+			'sm': '640px',
+
+			'tablet': '768px',
+
+			'desktop': '1080px',
+
+			'desktopXl': '1440px',
+
+			'desktop2xl': '1536px',
+		}
 	},
 	plugins: [],
 	darkMode: 'class',

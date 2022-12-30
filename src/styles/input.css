@@ -2,11 +2,36 @@
 
 @layer base {
   body {
-    @apply flex h-screen w-screen items-center justify-center bg-gray-800 font-poppins text-white;
+    @apply h-screen w-screen bg-gray-800 font-poppins text-white;
+    @apply tablet:flex tablet:items-center tablet:justify-center;
+    @apply desktop:flex desktop:items-center desktop:justify-center;
+  }
+
+  #root {
+    @apply my-0 mx-auto max-w-full p-5 text-center;
+    @apply desktop:max-w-7xl;
+  }
+
+  #icons-grid {
+    @apply grid grid-cols-3;
+    @apply desktop:flex;
+  }
+
+  .logo {
+    @apply my-0 mx-auto h-[7em] p-[1.5em] will-change-filter;
+  }
+
+  .card {
+    @apply p-[2em];
+  }
+
+  .read-the-docs {
+    @apply text-[#c0c0c0];
   }
 
   h1 {
-    @apply text-subtitle font-bold;
+    @apply text-smTitle font-bold;
+    @apply tablet:text-subtitle;
   }
 
   h2 {
