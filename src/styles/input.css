@@ -1,0 +1,22 @@
+@tailwind base;
+
+@layer base {
+  body {
+    @apply flex h-screen w-screen items-center justify-center bg-gray-800 font-poppins text-white;
+  }
+
+  h1 {
+    @apply text-smTitle font-bold;
+  }
+
+  h3 {
+    @apply text-smSubtitle;
+  }
+}
+
+@tailwind components;
+
+@layer components {
+}
+
+@tailwind utilities;
