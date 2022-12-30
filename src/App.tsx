@@ -52,6 +52,7 @@ function App() {
             href='https://github.com/FacundoRocha18'
             target='_blank'
             rel='noreferrer'
+						title='Go to Facundo´s GitHub'
           >
             Facundo Rocha
           </a>
