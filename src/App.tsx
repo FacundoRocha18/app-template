@@ -48,7 +48,7 @@ function App() {
         <h3>
           This is a React template created by{' '}
           <a
-            className='text-yellow-400 hover:text-yellow-300'
+            className='text-yellow-400 hover:text-yellow-500'
             href='https://github.com/FacundoRocha18'
             target='_blank'
             rel='noreferrer'
