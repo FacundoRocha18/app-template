@@ -6,6 +6,7 @@ import prettierLogo from './assets/prettier.svg'
 import eslintLogo from './assets/eslint-icon.svg'
 import jestLogo from './assets/jest-svgrepo-com.svg'
 import netlifyLogo from './assets/netlify-icon.svg'
+import githubLogo from './assets/github-mark-white.svg'
 import './App.css'
 
 function App() {
@@ -40,7 +41,7 @@ function App() {
           <img src={netlifyLogo} className='logo ts' alt='Netlify logo' />
         </a>
       </div>
-      <div className='flex flex-col gap-4'>
+      <div className='flex flex-col items-center justify-center gap-8'>
         <h1>
           Vite + React + TypeScript + TailwindCSS + React Router + Prettier + ESLint + Jest +
           Netlify
@@ -52,12 +53,20 @@ function App() {
             href='https://github.com/FacundoRocha18'
             target='_blank'
             rel='noreferrer'
-						title='Go to Facundo´s GitHub'
+            title='Go to Facundo´s GitHub'
           >
             Facundo Rocha
           </a>
         </h3>
-        <p className='read-the-docs'>Click on the logos to learn more</p>
+        <p className='read-the-docs'>Click on the logos to learn more about each technology</p>
+        <img src={githubLogo} alt='Github logo' />
+        <a
+          className='w-fit rounded bg-yellow-400 p-2 font-medium text-slate-800 transition-colors duration-300 ease-linear hover:bg-yellow-500'
+          href='https://github.com/FacundoRocha18/app-template'
+          target='_blank'
+        >
+          Go to GitHub repository
+        </a>
       </div>
     </div>
   )
