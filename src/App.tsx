@@ -66,7 +66,7 @@ function App() {
           href='https://github.com/FacundoRocha18/app-template'
           target='_blank'
         >
-          Go to GitHub repository
+          Go to GitHub repository :)
         </a>
       </div>
     </div>
