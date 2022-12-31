@@ -18,3 +18,7 @@
 #jest:hover {
   filter: drop-shadow(0 0 2em #e21b05aa);
 }
+
+.container {
+  background-color: #f3f4f6;
+}

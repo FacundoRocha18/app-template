@@ -2,14 +2,7 @@
 
 @layer base {
   body {
-    @apply h-screen w-screen bg-gray-800 font-poppins text-white;
-    @apply tablet:flex tablet:items-center tablet:justify-center;
-    @apply desktop:flex desktop:items-center desktop:justify-center;
-  }
-
-  #root {
-    @apply my-0 mx-auto max-w-full p-5 text-center;
-    @apply desktop:max-w-7xl;
+    @apply h-screen w-screen  text-center font-poppins text-white;
   }
 
   #icons-grid {
@@ -29,8 +22,14 @@
     @apply text-[#c0c0c0];
   }
 
+  #container {
+    @apply h-full min-h-screen w-full p-4 transition-colors duration-150 ease-linear;
+    @apply tablet:flex tablet:items-center tablet:justify-center;
+    @apply desktop:flex desktop:items-center desktop:justify-center;
+  }
+
   h1 {
-    @apply text-smTitle font-bold;
+    @apply text-center text-smTitle font-bold;
     @apply tablet:text-subtitle;
   }
 
